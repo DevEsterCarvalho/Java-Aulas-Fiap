@@ -13,7 +13,7 @@ public class LeituraDeDados {
 		System.out.println("Digite sua idade: ");
 		idade = sc.nextInt();
 		
-		if (idade == 0);
+		if (idade < 0);
 		System.out.println("Idade inválida");
 		
 		if (idade  >= 18 && idade < 70) {
