@@ -15,7 +15,7 @@ public class Conta {
 	}
 	
 	public void retirar (double valor) {
-		this.saldo += valor;
+		this.saldo -= valor;
 	}
 	
 	public void depositar (double valor) {

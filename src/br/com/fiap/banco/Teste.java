@@ -7,8 +7,8 @@ public class Teste {
 		double valor = cc.saldo;
 		//System.out.println(cc.saldo);
 		cc.saldo = 50;
-		cc.agencia = 150;
-		cc.numero = 500;
+		cc.agencia = 123;
+		cc.numero = 1000;
 		
 		cc.depositar(100);
 		
@@ -18,9 +18,5 @@ public class Teste {
 		poupanca.retirar(150);
 		System.out.println(poupanca.verificarSaldo());
 		
-		Conta cc = null;
-		if (cc != null){
-			System.out.println(“Existe uma conta”);
-		}
 	}
 }
